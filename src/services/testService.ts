@@ -10,8 +10,17 @@ async function find(filter: Filter) {
   } else if (filter.groupBy === "teachers") {
     return testRepository.getTestsByTeachers();
   }
-}
+};
+
+async function findById(filter: Filter, id:number) {
+  if (filter.groupBy === "disciplines") {
+    return testRepository.getTestsByDisciplineId(id);
+  } else if (filter.groupBy === "teachers") {
+    return testRepository.getTestsByTeachersId(id);
+  }
+};
 
 export default {
   find,
+  findById
 };
