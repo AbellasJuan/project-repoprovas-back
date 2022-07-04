@@ -2,8 +2,6 @@
 
 In Repoprovas people can share the tests they have anonymously.
 
-Try it out now at 
-
 ## About
 
 This is an web application where it is possible to view old tests separated by professor or subject and also send tests. Below are the implemented features:
