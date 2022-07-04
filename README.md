@@ -27,9 +27,6 @@ The following tools and frameworks were used in the construction of the project:
   ## How to run
 
 1. Clone this repository
-```bash
-git clone https://github.com/thipereira02/Repoprovas_Back.git
-```
 
 2. Create a Database using the ``dump.sql`` file inside the ``dump`` folder by following these steps:
     - 2.1 Open your terminal. **Important: the terminal must be opened in the same path as the ``dump.sql`` file is located.**
